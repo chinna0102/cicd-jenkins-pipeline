@@ -4,7 +4,7 @@
   tasks:
     - name: Install python pip
       apt:
-         name: python
+         name: python3
          state: present
     - name: Install docker 
       apt: 
